@@ -1,0 +1,58 @@
+body {
+  background-color: #343435;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.tool-button {
+  border: 1.2px solid #000000;
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #dafffb;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.color-option {
+  border: 1.2px solid #000000;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #dafffb;
+}
+
+.color-option:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+.color-option:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+#color-picker {
+  display: none;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tool-button:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+.tool-button:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}

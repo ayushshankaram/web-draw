@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <button id="draw-tool" class="tool-button">Pen</button>
+      <button id="highlight-tool" class="tool-button">Highlight</button>
+      <button id="note-tool" class="tool-button">Note</button>
+      <button id="undo-tool" class="tool-button">Undo</button>
+      <button id="save-tool" class="tool-button">Save</button>
+    </div>
+    <div id="color-picker">
+      <button class="color-option" data-color="yellow" style="background-color: yellow;"></button>
+      <button class="color-option" data-color="cyan" style="background-color: cyan;"></button>
+      <button class="color-option" data-color="lightgreen" style="background-color: lightgreen;"></button>
+      <button class="color-option" data-color="rgb(255, 77, 77)" style="background-color: rgb(255, 77, 77);"></button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
