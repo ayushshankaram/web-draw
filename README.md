@@ -122,7 +122,7 @@ Manages background tasks, including saving and loading annotations, ensuring tha
 
 
 
-   ![Popup UI](screenshots/select-extension.png)
+   ![Popup UI](Web-Draw/screenshots/select-extension.png)
 
 
 
@@ -130,7 +130,7 @@ Manages background tasks, including saving and loading annotations, ensuring tha
 
 
 
-   ![Select Tool](screenshots/select-tool.png)
+   ![Select Tool](Web-Draw/screenshots/select-tool.png)
 
 
 
@@ -142,7 +142,7 @@ Manages background tasks, including saving and loading annotations, ensuring tha
 
 
 
-   ![Annotate Webpage](screenshots/annotate.png)
+   ![Annotate Webpage](Web-Draw/screenshots/annotate.png)
 
 
 
